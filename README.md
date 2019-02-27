@@ -18,14 +18,15 @@ brew install rabbitmq
 ### Prerequisites
 1. spring boot
 2. rabbitmq
-3. curl
+3. Maven
+4. curl
 
 ## Installations
 
 application.properties
 
 ```
-X-AUTH_TOKEN= <Not implemented>
+X-AUTH_TOKEN= < Not implemented >
 authorized.applications=Ordering,Ticketing
 
 # Message Queue specific configs for ordering
@@ -70,6 +71,7 @@ brew services start rabbitmq
 Starts the RabbitMq server at http://localhost:15672/
 
 ```
+mvn install
 java -jar target/GenericNotificationSystem-0.0.1-SNAPSHOT.jar
 ```
 
