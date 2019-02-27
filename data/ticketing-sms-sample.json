@@ -1,0 +1,11 @@
+{
+  "correlationId":"Ticketing_2018-09-27T13:45:00+00:00_1",
+  "channel": "sms",
+  "firstName": "Sulabh",
+  "lastName" : "Vikas",
+  "subject": "It works!",
+  "to": "9623339531",
+  "from": "7625437320",
+  "accountId": "32145"
+  }
+}

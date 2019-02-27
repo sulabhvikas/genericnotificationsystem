@@ -57,7 +57,7 @@ public class SendController {
 				@RequestHeader(name = "X-AUTH_TOKEN", required = false) Map<String, String> headers) throws NotificationException {
 		
 		try {
-			System.out.println("POST - Request Body: " + message.toString());
+			System.out.println("POST - Request Body: " + message);
 			
 			NotificationMessage validatedMessage = validateRequest(message);
 			
@@ -127,7 +127,7 @@ public class SendController {
 	}
 
 	private void validateBody(NotificationMessage message) throws NotificationException {
-		if (message == null || message.getText() == null) {
+		if (message == null || message.getSubject() == null) {
 			throw new NotificationException(NotificationException.BAD_REQUEST+
 					"A message cannot be empty, either provide the message body or provide the template to use");
 		}

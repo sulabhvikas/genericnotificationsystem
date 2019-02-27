@@ -1,0 +1,11 @@
+{
+  "correlationId":"Ticketing_2018-09-27T13:45:00+00:00_1",
+  "channel": "email",
+  "firstName": "Sulabh",
+  "lastName" : "Vikas",
+  "text": "It works!",
+  "to": "svikas@centurylink.com",
+  "from": "xyz@xyz.com",
+  "accountId": "12345"
+  }
+}

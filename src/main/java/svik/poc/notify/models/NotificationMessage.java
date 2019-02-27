@@ -37,8 +37,8 @@ public class NotificationMessage {
 	private String templateId;
 	
 	@ApiModelProperty(notes = "notification message", required =true)
-	private String text;
-	
+	private String subject;
+
 	/**
 	 * customer's account id
 	 */
@@ -68,7 +68,7 @@ public class NotificationMessage {
 	@Override
 	public String toString() {
 		return "NotificationMessage [correlationId=" + correlationId + ", to=" + to + ", from=" + from + ", channel="
-				+ channel + ", templateId=" + templateId + ", text=" + text + ", accountId=" + accountId
+				+ channel + ", templateId=" + templateId + ", subject=" + subject + ", accountId=" + accountId
 				+ ", firstName=" + firstName + ", lastName=" + lastName + ", applicationId=" + applicationId + ", date="
 				+ date + "]";
 	}
@@ -137,12 +137,12 @@ public class NotificationMessage {
 		this.accountId = accountId;
 	}
 	
-	public String getText() {
-		return text;
+	public String getSubject() {
+		return subject;
 	}
 
-	public void setText(String text) {
-		this.text = text;
+	public void setSubject(String subject) {
+		this.subject = subject;
 	}
 
 	public String getTemplateId() {

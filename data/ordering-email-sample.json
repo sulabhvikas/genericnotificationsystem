@@ -1,0 +1,11 @@
+{
+  "correlationId":"Ordering_2018-09-27T13:45:00+00:00_1",
+  "channel": "email",
+  "firstName": "Sulabh",
+  "lastName" : "Vikas",
+  "subject": "It works from curl!",
+  "to": "svikas@centurylink.com",
+  "from": "xyz@xyz.com",
+  "accountId": "12349"
+  }
+}
