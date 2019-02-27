@@ -22,8 +22,9 @@ brew install rabbitmq
 
 ## Installations
 
-```
 application.properties
+
+```
 X-AUTH_TOKEN= <Not implemented>
 authorized.applications=Ordering,Ticketing
 
